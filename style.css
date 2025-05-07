@@ -1,0 +1,22 @@
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  gap: 5px;
+}
+.cell {
+  width: 60px;
+  height: 60px;
+  background: #ddd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+.revealed {
+  background: #bbb;
+}
+.mine {
+  background: red;
+}
